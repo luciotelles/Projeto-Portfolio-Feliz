@@ -1,0 +1,67 @@
+header {
+    justify-content: space-between;   /* <!-- alinha na horizontal os itens e nas extremidades--> */
+    display: flex;
+    background-color: #F7DE79;
+    border-bottom: 10px solid #000;
+    padding: 10px 20px;
+
+}
+
+nav {
+
+  text-align: right;
+  /*  alinha todos os menus no centro ou esquerda ou direita--> */
+}
+
+
+a {
+  display: inline-flex;
+  align-items: center;    /*alinha na vertical os itens*/
+  color: #fff;
+  font-size: 20px;
+  /* fall-back*/
+  font-family: "Fira code", Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  margin-right: 30PX;
+}
+
+a::before {
+  content: "";
+  display: inline-block;
+  background-color: #624C9F;
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+}
+
+
+#button {
+  display: inline-block;   /* alterar largura do button; padrão inline ( não deixar fazer alteração) */
+  background-color: #624C9F;
+  box-shadow: 5px 5px 0px #000;
+  padding: 14px 20px;
+  margin-right: 0;
+}
+
+
+h1 {
+  color: #FF0000;
+}
+
+
+#button {
+  /* alterar largura do button; padrão inline ( não deixar fazer alteração)/* */
+  display: inline-block;
+  background-color: #624C9F;
+  box-shadow: 5px 5px 0px #000;
+  padding: 14px 20px;
+  margin-right: 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease
+
+}
+
+/* adiciona comportamento do button*/
+#button:hover {
+  background-color: rgb(238, 0, 255);
+}
