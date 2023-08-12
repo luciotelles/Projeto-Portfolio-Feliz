@@ -50,13 +50,14 @@ a::before {
   padding: 14px 20px;
   margin-right: 0;
   cursor: pointer;
-  transition: background-color 0.1s ease
+  transition: transform 100ms linear;  /* opacity 200ms ease-in-out; */
 }
 
 /* adiciona comportamento do button*/
 #button:hover {
   transform: scale(1.08);
-  background-color: rgb(238, 0, 255);
+  background-color: #785cc4;
+  /* opacity: 0.8; */
 }
 
 h2 {
